@@ -9,7 +9,11 @@
             font-family: Arial, sans-serif;
             background-color: #ffcccc;
             text-align: center;
-            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
         .container {
             background-color: #fff;
@@ -17,7 +21,8 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 500px;
-            margin: auto;
+            width: 100%;
+            text-align: center;
         }
         h1 {
             color: #e60073;
@@ -26,10 +31,19 @@
             font-size: 18px;
             color: #333;
         }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="image-container">
+            <img src="sua_imagem.jpg" alt="Imagem Romântica">
+        </div>
         <h1>Feliz Dia dos Namorados!</h1>
         <p class="message">Amor da minha vida, você é a razão do meu sorriso e a luz dos meus dias. Feliz Dia dos Namorados! Eu te amo!</p>
     </div>
